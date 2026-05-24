@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memory Archive</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    overflow:hidden;
+    background:url('https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=2070') center/cover no-repeat;
+    font-family:'Orbitron',sans-serif;
+    color:#00ffe1;
+}
+
+.overlay{
+    background:rgba(0,0,0,0.65);
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.panel{
+    width:80%;
+    max-width:700px;
+    padding:30px;
+    border:1px solid #00ffe1;
+    background:rgba(0,0,0,0.55);
+    box-shadow:0 0 20px #00ffe1;
+    backdrop-filter:blur(6px);
+}
+
+h1{
+    text-align:center;
+    letter-spacing:4px;
+}
+
+.entry{
+    margin-top:20px;
+    padding:15px;
+    border-left:3px solid #00ffe1;
+    background:rgba(255,255,255,0.03);
+}
+
+.date{
+    color:#ff4fd8;
+    font-size:0.9em;
+}
+
+.typewriter{
+    overflow:hidden;
+    white-space:nowrap;
+    border-right:2px solid #00ffe1;
+    width:0;
+    animation:typing 4s steps(40,end) forwards;
+}
+
+@keyframes typing{
+    from{width:0}
+    to{width:100%}
+}
+</style>
+</head>
+
+<body>
+<div class="overlay">
+<div class="panel">
+
+<h1 class="typewriter">MEMORY_ARCHIVE</h1>
+
+<div class="entry">
+<div class="date">ENTRY // 2026-05-25</div>
+<p>
+The rain never stopped in Neo Cebu tonight.
+I think memories glow brighter in the dark.
+</p>
+</div>
+
+<div class="entry">
+<div class="date">ENTRY // 2026-05-20</div>
+<p>
+Sometimes the city lights feel like stars trapped underground.
+</p>
+</div>
+
+</div>
+</div>
+</body>
+</html>
